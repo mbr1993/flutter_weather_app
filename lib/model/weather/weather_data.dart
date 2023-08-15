@@ -1,0 +1,4 @@
+
+class WeatherData {
+  final WeatherCurrentData;
+}

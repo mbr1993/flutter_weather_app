@@ -1,5 +1,3 @@
-import 'dart:js_interop';
-
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 
@@ -12,9 +10,9 @@ class GlobalController extends GetxController {
   //instance for them to be called
   RxBool checkLoading() => _isLoading;
 
-  RxDouble checkLatitude() => _latitude;
+  RxDouble getLatitude() => _latitude;
 
-  RxDouble checkLongitude() => _longitude;
+  RxDouble getLongitude() => _longitude;
 
   @override
   void onInit() {
